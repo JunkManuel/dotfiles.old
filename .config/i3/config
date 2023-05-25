@@ -186,7 +186,7 @@ bindsym $mod+r mode "resize"
 # Startups (wallpaper + transparency)
 exec_always --no-startup-id feh --bg-scale --no-fehbg ~/Pictures/bg/bg-aes.webp
 exec_always ~/.config/polybar/launch.sh
-exec --no-startup-id picom
+exec_always picom
 
 # Gaps windows
 gaps inner 10
