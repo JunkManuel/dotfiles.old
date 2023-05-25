@@ -34,7 +34,7 @@ function add_plugin(){
 }
 
 # add_plugin zsh-syntax-highlighting
-
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # completions
 source "$ZSH/completions/zsh-completions.zsh"
 
@@ -42,6 +42,7 @@ source "$ZSH/completions/zsh-completions.zsh"
 setopt autocd autopushd
 
 eval neofetch
+eval cd
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
