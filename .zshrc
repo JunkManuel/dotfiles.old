@@ -23,6 +23,11 @@ alias egrep="egrep --color"
 alias startx="startx /usr/bin/i3"
 alias feh="feh --no-fehbg"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
+alias config-s='config status'
+function config-commit-push(){
+	[[ $(config commit -m $1) -eq 1 ]]
+	config push
+}
 alias config-ls="cd ~ && nvim \$(config ls-tree --full-tree -r --name-only HEAD | grep -Ev 'completions' | fzf)"
 
 # Plugins
