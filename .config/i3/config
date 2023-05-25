@@ -183,8 +183,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Startups (wallpaper + transparency)
-exec --no-startup-id feh --bg-scale --no-fehbg ~/Pictures/bg/bg-aes.webp
+# Startups (wallpaper + transparency
+exec --no-startup-id ~/.config/i3/wall-set.sh bg.webp
 exec_always ~/.config/polybar/launch.sh
 exec_always picom
 
