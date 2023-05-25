@@ -32,6 +32,7 @@ function add_plugin(){
 		source "$ZSH/plugins/$PLUGIN_NAME/$PLUGIN_NAME.plugin.zsh"
 	fi
 }
+
 add_plugin zsh-syntax-highlighting
 
 # completions
