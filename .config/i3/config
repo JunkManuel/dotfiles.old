@@ -184,7 +184,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Startups (wallpaper + transparency)
-exec_always --no-startup-id feh --bg-scale --no-fehbg ~/Pictures/bg/bg-aes.webp
+exec --no-startup-id feh --bg-scale --no-fehbg ~/Pictures/bg/bg-aes.webp
 exec_always ~/.config/polybar/launch.sh
 exec_always picom
 
