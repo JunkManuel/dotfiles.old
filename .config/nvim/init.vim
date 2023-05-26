@@ -4,6 +4,7 @@ source /usr/share/nvim/archlinux.vim
 " Modules
 runtime	keybinds.vim
 runtime config.vim
+runtime commenter.vim
 
 call plug#begin()
 
@@ -17,5 +18,7 @@ Plug 'ervandew/supertab' 	"Tab for all completitions
 Plug 'nathanaelkane/vim-indent-guides' 		            "Add blocky indent guides
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }   "Add Hex color display
 
-call plug#end()
+" Commenter Plugin
+Plug 'scrooloose/nerdcommenter'
 
+call plug#end()

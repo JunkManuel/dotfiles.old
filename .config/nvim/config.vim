@@ -1,5 +1,7 @@
 " Config file to alter nvim variables
 " 
+filetype plugin on
+" 
 " Set Numbers on left side
 set number
 set numberwidth=2
