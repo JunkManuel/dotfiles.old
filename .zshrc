@@ -14,7 +14,7 @@ compinit
 # Prompt Setup
 prompt fire yellow yellow red black white white 
 
-# ls ALIASES
+# ALIASES
 alias ls="ls --color -F"
 alias ll="ls --color -lh"
 alias la="ls --color -la"
@@ -22,6 +22,9 @@ alias grep="grep --color"
 alias egrep="egrep --color"
 alias startx="startx /usr/bin/i3"
 alias feh="feh --no-fehbg"
+alias xclip2clip="xclip -sel clip"
+
+# Aliases config repo
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 alias config-s='config status'
 function config-commit-push(){
