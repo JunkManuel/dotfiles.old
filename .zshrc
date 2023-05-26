@@ -2,6 +2,7 @@
 setopt autocd
 export ZSH="$HOME/.zsh"
 export EDITOR="nvim"
+export VISUAL="nvim"
 fpath=("$ZSH/themes" "$fpath[@]")
 fpath=("$ZSH/plugins" "$fpath[@]")
 
