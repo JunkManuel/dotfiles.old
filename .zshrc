@@ -1,5 +1,4 @@
 # ZSH things
-setopt autocd
 export ZSH="$HOME/.zsh"
 export EDITOR="nvim"
 export VISUAL="nvim"
