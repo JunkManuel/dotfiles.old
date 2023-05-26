@@ -14,7 +14,8 @@ Plug 'honza/vim-snippets' 	"More Snipets
 Plug 'ervandew/supertab' 	"Tab for all completitions
 
 " Visual Plugins
-"Plug 'nathanaelkane/vim-indent-guides' 		            "Add blocky indent guides
+Plug 'nathanaelkane/vim-indent-guides' 		            "Add blocky indent guides
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }   "Add Hex color display
 
 call plug#end()
+

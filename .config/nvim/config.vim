@@ -13,6 +13,7 @@ set expandtab 		" Redifines tab char as a group of space chars (also changes bac
 " Define Color Scheme
 set termguicolors
 colorscheme focuspoint 
-" 
-hi IndentGuidesOdd  ctermbg=black       " Indent Color Scheme
-hi IndentGuidesEven ctermbg=darkgrey    " Indent Color Scheme
+"
+let g:Hexokinase_highlighters = ['foregroundfull']      " Show hexcode colors
+autocmd VimEnter * HexokinaseTurnOn
+autocmd VimEnter * IndentGuidesEnable
