@@ -150,4 +150,5 @@ configuration {
   }
 }
 //@theme "~/.config/rofi/themes/android_notification.rasi"
+//@theme "/usr/share/rofi/themes/sidebar.rasi"
 @theme "/usr/share/rofi/themes/sidebar.rasi"
