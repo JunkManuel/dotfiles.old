@@ -1,4 +1,5 @@
 # ZSH things
+source $HOME/.ss_zshrc
 export ZSH="$HOME/.zsh"
 export EDITOR="nvim"
 export VISUAL="nvim"

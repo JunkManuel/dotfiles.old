@@ -187,6 +187,7 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id ~/.config/i3/wall-set.sh bg.webp
 exec_always ~/.config/polybar/launch.sh
 exec_always picom
+exec --no-startup-id sh -c 'nohup /usr/bin/otd'
 
 # Gaps windows
 gaps inner 10
