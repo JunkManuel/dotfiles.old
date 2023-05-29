@@ -6,6 +6,11 @@ export VISUAL="nvim"
 fpath=("$ZSH/themes" "$fpath[@]")
 fpath=("$ZSH/plugins" "$fpath[@]")
 
+# home end prev-page next-page supr maps
+bindkey "^[[H"  beginning-of-line
+bindkey "^[[F"  end-of-line
+bindkey "^[[3~" delete-char
+
 # autoloads 
 autoload -U promptinit
 autoload -Uz compinit
@@ -21,6 +26,7 @@ alias ll="ls --color -lh"
 alias la="ls --color -la"
 alias grep="grep --color"
 alias egrep="egrep --color"
+alias tree="tree -C"
 alias startx="startx /usr/bin/i3"
 alias feh="feh --no-fehbg"
 alias xclip2clip="xclip -sel clip"
