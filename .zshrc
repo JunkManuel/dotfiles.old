@@ -6,12 +6,18 @@ export VISUAL="nvim"
 fpath=("$ZSH/themes" "$fpath[@]")
 fpath=("$ZSH/plugins" "$fpath[@]")
 
+# History
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.cache/zsh/history
+
 # home end prev-page next-page supr maps
 bindkey "^[[H"  beginning-of-line
 bindkey "^[[F"  end-of-line
 bindkey "^[[3~" delete-char
 
 # autoloads 
+autoload -U colors && colors
 autoload -U promptinit
 autoload -Uz compinit
 promptinit
@@ -50,9 +56,9 @@ function add_plugin(){
 }
 
 # add_plugin zsh-syntax-highlighting
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # completions
-source "$ZSH/completions/zsh-completions.zsh"
+[ -f "$ZSH/completions/zsh-completions.zsh" ] && source "$ZSH/completions/zsh-completions.zsh"
 
 # set options
 setopt autocd autopushd

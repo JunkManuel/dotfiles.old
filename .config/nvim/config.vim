@@ -2,6 +2,9 @@
 " 
 filetype plugin on
 " 
+" Set Window title
+set title
+" 
 " Set Numbers on left side
 set number
 set numberwidth=2
