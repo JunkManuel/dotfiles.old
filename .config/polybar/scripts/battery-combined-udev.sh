@@ -1,7 +1,7 @@
 #!/bin/sh
 
 battery_print() {
-    PATH_AC="/sys/class/power_supply/AC"
+    PATH_AC="/sys/class/power_supply/ADP1"
     PATH_BATTERY_0="/sys/class/power_supply/BAT0"
     PATH_BATTERY_1="/sys/class/power_supply/BAT1"
 
@@ -38,7 +38,7 @@ battery_print() {
     battery_percent=$(("$battery_percent / $battery_max"))
 
     if [ "$ac" -eq 1 ]; then
-        icon="#1"
+        icon="󰂄"
 
         if [ "$battery_percent" -gt 97 ]; then
             echo "$icon"
@@ -47,15 +47,15 @@ battery_print() {
         fi
     else
         if [ "$battery_percent" -gt 85 ]; then
-            icon="#21"
+            icon=""
         elif [ "$battery_percent" -gt 60 ]; then
-            icon="#22"
+            icon=""
         elif [ "$battery_percent" -gt 35 ]; then
-            icon="#23"
+            icon=""
         elif [ "$battery_percent" -gt 10 ]; then
-            icon="#24"
+            icon=""
         else
-            icon="#25"
+            icon=""
         fi
 
         echo "$icon $battery_percent %"
@@ -81,7 +81,7 @@ case "$1" in
         while true; do
             battery_print
 
-            sleep 30 &
+            sleep 10 &
             wait
         done
         ;;
