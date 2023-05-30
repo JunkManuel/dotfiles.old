@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/kiramanolo/.zsh'
 let g:netrw_dirhist_3='/home/kiramanolo/.config/polybar/scripts'
 let g:netrw_dirhist_2='/home/kiramanolo/.config/nvim/colors'
 let g:netrw_dirhist_1='/home/kiramanolo/.zsh'

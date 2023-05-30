@@ -33,6 +33,8 @@ alias la="ls --color -la"
 alias grep="grep --color"
 alias egrep="egrep --color"
 alias tree="tree -C"
+
+alias wget="wget --hsts-file=~/.cache/wget/wget-hsts"
 alias startx="startx /usr/bin/i3"
 alias feh="feh --no-fehbg"
 alias xclip2clip="xclip -sel clip"
