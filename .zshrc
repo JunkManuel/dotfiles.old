@@ -39,6 +39,17 @@ alias startx="startx /usr/bin/i3"
 alias feh="feh --no-fehbg"
 alias xclip2clip="xclip -sel clip"
 
+function backup(){
+    BACKUP_PATH="$1"
+    printf 'You sure you want to perform a full system backup (may take some time) y/[N]: '
+
+    read ANS
+
+    if [ "$ANS" = "y" ] && [ -d "$BACKUP_PATH" ]; then 
+        sudo rsync -aAXHv --exclude={"/home/*","/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} / $BACKUP_PATH
+    fi
+}
+
 # Aliases config repo
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 alias config-s='config status'
