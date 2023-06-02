@@ -34,11 +34,7 @@ battery_print() {
         battery_max_1=$(cat "$PATH_BATTERY_1/energy_full")
     fi
 
-    battery_level=$(("$battery_level_0 + $battery_level_1"))
-    battery_max=$(("$battery_max_0 + $battery_max_1"))
-
-    battery_percent=$(("$battery_level * 100"))
-    battery_percent=$(("$battery_percent / $battery_max"))
+    
 
     if [ "$ac" -eq 1 ]; then
         icon="󰂄"
@@ -49,6 +45,12 @@ battery_print() {
             echo "$icon $battery_percent %"
         fi
     else
+
+        battery_level=$(("$battery_level_0 + $battery_level_1"))
+        battery_max=$(("$battery_max_0 + $battery_max_1"))
+
+        battery_percent=$(("$battery_level * 100"))
+        battery_percent=$(("$battery_percent / $battery_max"))
         if [ "$battery_percent" -gt 85 ]; then
             icon=""
         elif [ "$battery_percent" -gt 60 ]; then
