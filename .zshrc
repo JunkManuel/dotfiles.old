@@ -52,7 +52,7 @@ function backup(){
 
 # Aliases config repo
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
-alias config-s='config status'
+alias config-status='config remote update && echo "\n\n" && config status'
 function config-commit-push(){
 	config commit -m $1
 	config push
