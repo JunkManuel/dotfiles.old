@@ -1,7 +1,10 @@
 #!/bin/sh
 
 battery_print() {
-    PATH_AC="/sys/class/power_supply/ADP1"
+    PATH_POWER="/sys/class/power_supply"
+    #PATH_AC="/sys/class/power_supply/ADP1"
+    [[ -d "$PATH_POWER/AC" ]] && PATH_AC="$PATH_POWER/AC"
+    [[ -d "$PATH_POWER/ADP1" ]] && PATH_AC="$PATH_POWER/ADP1"
     PATH_BATTERY_0="/sys/class/power_supply/BAT0"
     PATH_BATTERY_1="/sys/class/power_supply/BAT1"
 
