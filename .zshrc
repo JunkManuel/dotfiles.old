@@ -59,6 +59,11 @@ function config-commit-push(){
 }
 alias config-ls="cd ~ && nvim \$(config ls-tree --full-tree -r --name-only HEAD | grep -Ev 'completions' | fzf)"
 
+# SSH auto-add
+for i in ~/.ssh/id_rsa*; do
+    [[ -f "$i" ]] && [[ ! "$i" == *".pub" ]] && ssh-add $i &> /dev/null
+done
+
 # Plugins
 function add_plugin(){
 	PLUGIN_NAME=$(echo $1 | cut -d "/" -f 2)

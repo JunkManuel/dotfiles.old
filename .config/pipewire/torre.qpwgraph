@@ -1,0 +1,54 @@
+<!DOCTYPE patchbay>
+<patchbay name="torre" version="0.4.2">
+ <items>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FR"/>
+   <input node="Virtual Surround Sink [Virtual Surround Sink]" port="Virtual Surround Sink:playback_SR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FL"/>
+   <input node="Virtual Surround Sink [Virtual Surround Sink]" port="Virtual Surround Sink:playback_SL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [summer 2015 mix ~nostalgia playlist - YouTube]" port="Firefox:output_FR"/>
+   <input node="CORSAIR VOID ELITE Wireless Gaming Dongle Estéreo analógico" port="CORSAIR VOID ELITE Wireless Gam:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FR"/>
+   <input node="CORSAIR VOID ELITE Wireless Gaming Dongle Estéreo analógico" port="CORSAIR VOID ELITE Wireless Gam:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FR"/>
+   <input node="Virtual Surround Sink [Virtual Surround Sink]" port="Virtual Surround Sink:playback_FR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FL"/>
+   <input node="Virtual Surround Sink [Virtual Surround Sink]" port="Virtual Surround Sink:playback_FC"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FR"/>
+   <input node="Virtual Surround Sink [Virtual Surround Sink]" port="Virtual Surround Sink:playback_RR"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [summer 2015 mix ~nostalgia playlist - YouTube]" port="Firefox:output_FL"/>
+   <input node="CORSAIR VOID ELITE Wireless Gaming Dongle Estéreo analógico" port="CORSAIR VOID ELITE Wireless Gam:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FL"/>
+   <input node="Virtual Surround Sink [Virtual Surround Sink]" port="Virtual Surround Sink:playback_RL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FL"/>
+   <input node="Virtual Surround Sink [Virtual Surround Sink]" port="Virtual Surround Sink:playback_FL"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FR"/>
+   <input node="Virtual Surround Sink [Virtual Surround Sink]" port="Virtual Surround Sink:playback_FC"/>
+  </item>
+  <item node-type="pipewire" port-type="pipewire-audio">
+   <output node="Firefox [AudioStream]" port="Firefox:output_FR"/>
+   <input node="CORSAIR VOID ELITE Wireless Gaming Dongle Estéreo analógico" port="CORSAIR VOID ELITE Wireless Gam:playback_FR"/>
+  </item>
+ </items>
+</patchbay>
+
