@@ -191,7 +191,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 exec --no-startup-id ~/.config/i3/wall-set.sh bg.webp
 exec_always ~/.config/polybar/launch.sh
 exec_always picom
-exec --no-startup-id sh -c 'nohup /usr/bin/otd &> /dev/null'
+exec --no-startup-id sh -c 'nohup /usr/bin/otd >&/dev/null'
 
 # Gaps windows
 gaps inner 10
