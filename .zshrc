@@ -20,13 +20,13 @@ bindkey "^[[1;5D" backward-word
 
 # autoloads 
 autoload -U colors && colors
-autoload -U promptinit
-autoload -Uz compinit
-promptinit
+autoload -Uz compinit vcs_info
 compinit
 
 # Prompt Setup
-prompt fire yellow yellow red black white white 
+setopt prompt_subst
+precmd() { print -rP '%B%F{yellow}%K{yellow}%{█▓▒░%}%B%F{black}%K{yellow}%n@%m%b%F{red}%K{yellow}%{░▒▓█%}%b%F{red}%K{black}%{█▓▒░%}%B%F{white}%K{black} %D{%a %b %d} %D{%I:%M:%S%P} %}%B%F{white}%K{black}' }
+PROMPT='%~/%b%f%k '
 
 # ALIASES
 alias ls="ls --color -F"
