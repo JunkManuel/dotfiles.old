@@ -23,10 +23,22 @@ autoload -U colors && colors
 autoload -Uz compinit vcs_info
 compinit
 
+# Vcs info Configs
+#
+# Enable checking for (un)staged changes, enabling use of %u and %c
+zstyle ':vcs_info:*' check-for-changes true
+# Set custom strings for an unstaged vcs repo changes (*) and staged changes (+)
+zstyle ':vcs_info:*' unstagedstr ' *'
+zstyle ':vcs_info:*' stagedstr ' +'
+# Set the format of the Git information for vcs_info
+zstyle ':vcs_info:git:*' formats       'git:(%b%u%c)'
+zstyle ':vcs_info:git:*' actionformats 'git:(%b|%a%u%c)'
+
 # Prompt Setup
 setopt prompt_subst
-precmd() { print -rP '%B%F{yellow}%K{yellow}%{█▓▒░%}%B%F{black}%K{yellow}%n@%m%b%F{red}%K{yellow}%{░▒▓█%}%b%F{red}%K{black}%{█▓▒░%}%B%F{white}%K{black} %D{%a %b %d} %D{%I:%M:%S%P} %}%B%F{white}%K{black}' }
+precmd() { vcs_info && print -rP '%B%F{yellow}%K{yellow}%{█▓▒░%}%B%F{black}%K{yellow}%n@%m%b%F{red}%K{yellow}%{░▒▓█%}%b%F{red}%K{black}%{█▓▒░%}%B%F{white}%K{black} %D{%a %b %d} %D{%I:%M:%S%P} %}%B%F{white}%K{black}' }
 PROMPT='%~/%b%f%k '
+RPROMPT='${vcs_info_msg_0_}' 
 
 # ALIASES
 alias ls="ls --color -F"
