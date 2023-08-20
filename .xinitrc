@@ -78,5 +78,4 @@ if [ -f /usr/bin/i3 ]; then
     exec i3
 fi
 
-exec /usr/bin/prime-offload
-
+# exec /usr/bin/prime-offload
