@@ -187,6 +187,9 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 #
 # bindsym $mod+r mode "resize"
 
+#Screen capture
+bindsym Print exec --no-startup-id maim -s | xclip -selection clipboard -t image/png  
+
 # Startups (wallpaper + transparency
 exec --no-startup-id ~/.config/i3/wall-set.sh bg.webp
 exec_always ~/.config/polybar/launch.sh
