@@ -1,0 +1,10 @@
+{
+    "workbench.sideBar.location": "right",
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontWeight": "450",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
+}
