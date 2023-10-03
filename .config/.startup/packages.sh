@@ -18,9 +18,9 @@ if ! builtin type -p 'yay' >/dev/null 2>&1; then
     rm -rf "${tmpdir}"
 fi
 
-packages=("git" "zsh" "zsh-completions" "zsh-syntax-highlighting-git" "brave" "neovim" "picom" "polybar" "gcc" "python" "python-ipykernel" "code" "alacritty" "rofi" "xournalpp" "networkmanager" "network-manager-applet" "jq" "udisks2" "ntfs-3g" "openssh" "syncthing" "keepassxc" "libreoffice-still" "onedrive-abraunegg" "go" "pcmanfm" "jupyter-notebook" "opentabletdriver" "maim" "wmctrl")
+packages=("git" "zsh" "zsh-completions" "zsh-syntax-highlighting-git" "brave" "neovim" "picom" "polybar" "gcc" "python" "python-ipykernel" "code" "alacritty" "rofi" "xournalpp" "networkmanager" "network-manager-applet" "jq" "udisks2" "ntfs-3g" "openssh" "syncthing" "keepassxc" "libreoffice-still" "onedrive-abraunegg" "go" "pcmanfm-gtk3" "jupyter-notebook" "opentabletdriver" "maim" "wmctrl" "arc-icon-theme" "arc-gtk-theme")
 
-yay -Sy
+yay -Syu
 yay -S ${packages[@]}
 
 echo '\n-------------------------------------------------------\nExecute : \nsystemctl --user daemon-reload \nsystemctl --user enable opentabletdriver --now'
