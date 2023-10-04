@@ -74,9 +74,11 @@ function config-commit-push(){
 alias config-ls="cd ~ && nvim \$(config ls-tree --full-tree -r --name-only HEAD | grep -Ev 'completions' | fzf)"
 
 # SSH auto-add
-for i in ~/.ssh/id_rsa*; do
-    [[ -f "$i" ]] && [[ ! "$i" == *".pub" ]] && ssh-add $i >& /dev/null
-done
+if [ -f ~/.ssh/id_rsa ]; then
+    for i in ~/.ssh/id_rsa*; do
+        [[ -f "$i" ]] && [[ ! "$i" == *".pub" ]] && ssh-add $i >& /dev/null
+    done
+fi
 
 # Plugins
 function add_plugin(){
@@ -95,4 +97,4 @@ function add_plugin(){
 # set options
 setopt autocd autopushd
 
-eval neofetch
+if builtin type -p "neofetch" >/dev/null 2>&1; then eval neofetch;fi

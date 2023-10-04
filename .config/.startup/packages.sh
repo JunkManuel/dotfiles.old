@@ -4,6 +4,7 @@
 if ! builtin type -p 'yay' >/dev/null 2>&1; then
     echo 'Install yay.'
     sudo pacman -S --needed base base-devel wget
+    sudo pacman -S git
     tmpdir="$(command mktemp -d)"
     command cd "${tmpdir}" || return 1
     dl_url="$(command curl -sfLS 'https://api.github.com/repos/Jguer/yay/releases/latest' |
@@ -18,9 +19,7 @@ if ! builtin type -p 'yay' >/dev/null 2>&1; then
     rm -rf "${tmpdir}"
 fi
 
-packages=("git" "zsh" "zsh-completions" "zsh-syntax-highlighting-git" "brave" "neovim" "picom" "polybar" "gcc" "python" "python-ipykernel" "code" "alacritty" "rofi" "xournalpp" "networkmanager" "network-manager-applet" "jq" "udisks2" "ntfs-3g" "openssh" "syncthing" "keepassxc" "libreoffice-still" "onedrive-abraunegg" "go" "pcmanfm-gtk3" "jupyter-notebook" "opentabletdriver" "maim" "wmctrl" "arc-icon-theme" "arc-gtk-theme")
+packages=( "zsh" "zsh-completions" "zsh-syntax-highlighting-git" "brave-bin" "neovim" "picom" "polybar" "gcc" "python" "python-ipykernel" "code" "alacritty" "rofi" "xournalpp" "networkmanager" "network-manager-applet" "jq" "udisks2" "ntfs-3g" "openssh" "syncthing" "keepassxc" "libreoffice-still" "onedrive-abraunegg" "go" "pcmanfm-gtk3" "jupyter-notebook" "opentabletdriver" "maim" "wmctrl" "arc-icon-theme" "arc-gtk-theme")
 
 yay -Syu
 yay -S ${packages[@]}
-
-echo '\n-------------------------------------------------------\nExecute : \nsystemctl --user daemon-reload \nsystemctl --user enable opentabletdriver --now'
