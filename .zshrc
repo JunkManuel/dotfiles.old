@@ -53,17 +53,6 @@ alias wget="wget --hsts-file=~/.cache/wget/wget-hsts"
 alias feh="feh --no-fehbg"
 alias xclip2clip="xclip -sel clip"
 
-function backup(){
-    BACKUP_PATH="$1"
-    printf 'You sure you want to perform a full system backup (may take some time) y/[N]: '
-
-    read ANS
-
-    if [ "$ANS" = "y" ] && [ -d "$BACKUP_PATH" ]; then 
-        sudo rsync -aAXHv --exclude={"/home/*","/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} / $BACKUP_PATH
-    fi
-}
-
 # Aliases config repo
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 alias config-status='config remote update && echo "\n\n" && config status'
@@ -79,15 +68,6 @@ if [ -f ~/.ssh/id_rsa ]; then
         [[ -f "$i" ]] && [[ ! "$i" == *".pub" ]] && ssh-add $i >& /dev/null
     done
 fi
-
-# Plugins
-function add_plugin(){
-	PLUGIN_NAME=$(echo $1 | cut -d "/" -f 2)
-	if [ -d "$ZSH/plugins/$PLUGIN_NAME" ]; then
-		source "$ZSH/plugins/$PLUGIN_NAME/$PLUGIN_NAME.zsh" || \
-		source "$ZSH/plugins/$PLUGIN_NAME/$PLUGIN_NAME.plugin.zsh"
-	fi
-}
 
 # add_plugin zsh-syntax-highlighting
 [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
