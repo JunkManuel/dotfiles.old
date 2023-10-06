@@ -1,0 +1,13 @@
+# Keysyms of TECKNET wireless keyboard
+keysym f1   XF86Tools
+keysym f2   XF86AudioRaiseVolume 
+keysym f3   XF86AudioLowerVolume
+keysym f4   XF86AudioMute
+keysym f5   XF86AudioPrev
+keysym f6   XF86AudioNext
+keysym f7   XF86AudioPlay
+keysym f8   XF86AudioStop
+keysym f9   XF86HomePage
+keysym f10  XF86Mail
+keysym f11  XF86Explorer
+keysym f12  XF86Favorites
