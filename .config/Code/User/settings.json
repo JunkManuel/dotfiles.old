@@ -6,5 +6,7 @@
     "editor.fontLigatures": true,
     "workbench.startupEditor": "none",
     "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": -1,
+    "editor.minimap.enabled": false
 }

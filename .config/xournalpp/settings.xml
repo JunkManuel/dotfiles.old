@@ -7,15 +7,15 @@
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
   <property name="lastSavePath" value="/home/kiramanolo/IA_Segundo/Notaciones/OptMatematica"/>
-  <property name="lastOpenPath" value="/home/kiramanolo/IA_Segundo/Notaciones/BasesDatos"/>
-  <property name="lastImagePath" value=""/>
+  <property name="lastOpenPath" value="/home/kiramanolo/IA_Segundo/Notaciones/OptMatematica"/>
+  <property name="lastImagePath" value="/home/kiramanolo/IA_Segundo/BasesDatos"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="2"/>
   <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="935"/>
-  <property name="mainWndHeight" value="1004"/>
+  <property name="mainWndWidth" value="1920"/>
+  <property name="mainWndHeight" value="1044"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="true"/>
@@ -221,14 +221,14 @@
     </data>
     <data name="eraser">
       <attribute name="drawingType" type="string" value="default"/>
-      <attribute name="size" type="string" value="BIG"/>
+      <attribute name="size" type="string" value="MEDIUM"/>
       <attribute name="type" type="string" value="default"/>
     </data>
     <data name="hand">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="highlighter">
-      <attribute name="color" type="hex" value="ff8000"/>
+      <attribute name="color" type="hex" value="ff0000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
