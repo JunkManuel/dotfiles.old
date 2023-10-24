@@ -7,15 +7,17 @@
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Primeiro/Programasa%C3%B4_II": "__default__profile__",
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo": "__default__profile__"
         },
-        "emptyWindows": {
-            "1698075597072": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "c67b900787b4e807452638d9bafbcd58747a03f545bc4162f3ae09489e84bf3c",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo"
+            }
+        ],
         "emptyWindows": [
             {
                 "backupFolder": "1698075597072"
@@ -60,7 +62,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -245,7 +248,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -388,6 +392,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -583,7 +591,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -817,7 +826,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -834,7 +844,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1053,8 +1064,7 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations",
-                        "enabled": false
+                        "label": "Open &&Configurations"
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1334,6 +1344,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1717,14 +1732,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 186,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/kiramanolo/.config/Code/Backups/1698075597072",
+            "folder": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo",
+            "backupPath": "/home/kiramanolo/.config/Code/Backups/07e4e154b24530776cd9a6bf09426cb7",
             "uiState": {
                 "mode": 1,
                 "x": 0,
