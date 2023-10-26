@@ -5,9 +5,15 @@
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Primeiro/Matem%C3%A1ticas%20Discretas": "__default__profile__",
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Primeiro/Programasa%C3%B4/Boletin_5": "__default__profile__",
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Primeiro/Programasa%C3%B4_II": "__default__profile__",
-            "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo": "__default__profile__"
+            "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2": "__default__profile__",
+            "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2": "__default__profile__",
+            "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos": "__default__profile__",
+            "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo": "__default__profile__",
+            "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1698333030484": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "c67b900787b4e807452638d9bafbcd58747a03f545bc4162f3ae09489e84bf3c",
@@ -15,12 +21,24 @@
         "workspaces": [],
         "folders": [
             {
+                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2"
+            },
+            {
                 "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo"
+            },
+            {
+                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2"
+            },
+            {
+                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos"
+            },
+            {
+                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3"
             }
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1698075597072"
+                "backupFolder": "1698333030484"
             }
         ]
     },
@@ -72,12 +90,56 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3",
+                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo",
                                         "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/OneDrive/Intelixencia-Artificial/Segundo"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos",
+                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2",
+                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2",
+                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -114,6 +176,28 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/abb.py",
+                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/abb.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/abb.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2/pat",
+                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2/pat",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2/pat"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -734,6 +818,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -826,8 +917,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1064,7 +1154,8 @@
                     },
                     {
                         "id": "workbench.action.debug.configure",
-                        "label": "Open &&Configurations"
+                        "label": "Open &&Configurations",
+                        "enabled": false
                     },
                     {
                         "id": "debug.addConfiguration",
@@ -1160,7 +1251,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1732,15 +1824,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 186,
+            "sideBarWidth": 429,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo",
-            "backupPath": "/home/kiramanolo/.config/Code/Backups/07e4e154b24530776cd9a6bf09426cb7",
+            "folder": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3",
+            "backupPath": "/home/kiramanolo/.config/Code/Backups/c72e05647779aa2bc90d6ef85be81edf",
             "uiState": {
                 "mode": 1,
                 "x": 0,
