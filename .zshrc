@@ -64,6 +64,7 @@ alias config-ls="cd ~ && nvim \$(config ls-tree --full-tree -r --name-only HEAD 
 
 # SSH auto-add
 if [ -f ~/.ssh/id_rsa ]; then
+    eval `ssh-agent` >& /dev/null;
     for i in ~/.ssh/id_rsa*; do
         [[ -f "$i" ]] && [[ ! "$i" == *".pub" ]] && ssh-add $i >& /dev/null
     done
