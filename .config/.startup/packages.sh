@@ -19,7 +19,7 @@ if ! builtin type -p 'yay' >/dev/null 2>&1; then
     rm -rf "${tmpdir}"
 fi
 
-packages=( "zsh" "zsh-completions" "zsh-syntax-highlighting-git" "brave-bin" "neovim" "picom" "polybar" "gcc" "python" "python-ipykernel" "code" "alacritty" "rofi" "xournalpp" "networkmanager" "network-manager-applet" "jq" "udisks2" "ntfs-3g" "openssh" "syncthing" "keepassxc" "libreoffice-still" "onedrive-abraunegg" "go" "pcmanfm-gtk3" "jupyter-notebook" "opentabletdriver" "maim" "wmctrl" "arc-icon-theme" "arc-gtk-theme")
+packages=( "zsh" "zsh-completions" "zsh-syntax-highlighting-git" "brave-bin" "neovim" "picom" "polybar" "gcc" "python" "python-ipykernel" "code" "alacritty" "rofi" "xournalpp" "networkmanager" "network-manager-applet" "jq" "udisks2" "ntfs-3g" "openssh" "syncthing" "keepassxc" "libreoffice-still" "onedrive-abraunegg" "go" "pcmanfm" "jupyter-notebook" "opentabletdriver" "maim" "wmctrl" "arc-icon-theme" "arc-gtk-theme" "gtk-engine-murrine" "gnome-themes-extra" "xcursor-arch-cursor-complete" "lxappearence")
 
 yay -Syu
 yay -S ${packages[@]}
