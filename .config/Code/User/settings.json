@@ -16,5 +16,8 @@
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.formatOnType": true,
         "editor.wordBasedSuggestions": false
-    }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.enableSmartCommit": true,
+    "window.zoomLevel": 1
 }

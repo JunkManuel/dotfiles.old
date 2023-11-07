@@ -9,11 +9,11 @@
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2": "__default__profile__",
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos": "__default__profile__",
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo": "__default__profile__",
-            "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3": "__default__profile__"
+            "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3": "__default__profile__",
+            "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica3": "__default__profile__",
+            "file:///home/kiramanolo/primelooterbot/primelooter": "__default__profile__"
         },
-        "emptyWindows": {
-            "1698333030484": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "c67b900787b4e807452638d9bafbcd58747a03f545bc4162f3ae09489e84bf3c",
@@ -21,26 +21,10 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/ver2"
-            },
-            {
-                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo"
-            },
-            {
-                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2"
-            },
-            {
-                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos"
-            },
-            {
-                "folderUri": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3"
+                "folderUri": "file:///home/kiramanolo/primelooterbot/primelooter"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1698333030484"
-            }
-        ]
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -80,11 +64,32 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/primelooterbot/primelooter",
+                                        "path": "/home/kiramanolo/primelooterbot/primelooter",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/primelooterbot/primelooter"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica3",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica3",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Algoritmos/Practica3"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -181,6 +186,72 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema6.ipynb",
+                                        "path": "/home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema6.ipynb",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema6.ipynb"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb",
+                                        "path": "/home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema3.ipynb",
+                                        "path": "/home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema3.ipynb",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema3.ipynb"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica3/ETSEmaps.py/test.py",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica3/ETSEmaps.py/test.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Algoritmos/Practica3/ETSEmaps.py/test.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/primelooterbot/primelooter/telegram-bot.py",
+                                        "path": "/home/kiramanolo/primelooterbot/primelooter/telegram-bot.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/primelooterbot/primelooter/telegram-bot.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/primelooterbot/primelooter/schemaget.py",
+                                        "path": "/home/kiramanolo/primelooterbot/primelooter/schemaget.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/primelooterbot/primelooter/schemaget.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/abb.py",
                                         "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica2/abb.py",
                                         "scheme": "file"
@@ -220,72 +291,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/maps.ipynb",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/maps.ipynb",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/maps.ipynb"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/carreteras",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/carreteras",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/carreteras"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/grafo_carreteras.py",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/grafo_carreteras.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3/ETSEMaps/grafo_carreteras.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/pyomo_new2.py",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/pyomo_new2.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/pyomo_new2.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/pyomo_new.py",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/pyomo_new.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/pyomo_new.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Ej%209-18/Ej%209.py",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Ej 9-18/Ej 9.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Ej 9-18/Ej 9.py"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -688,16 +693,29 @@
                                     "checked": true
                                 },
                                 {
-                                    "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "&&Activity Bar",
+                                    "id": "workbench.action.togglePanel",
+                                    "label": "&&Panel",
                                     "checked": true
                                 },
                                 {
-                                    "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "vscode.menubar.separator"
+                                    "id": "submenuitem.ActivityBarPositionMenu",
+                                    "label": "Activity Bar Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.activityBarLocation.side",
+                                                "label": "&&Side",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.hide",
+                                                "label": "&&Hidden"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarPosition",
@@ -745,6 +763,27 @@
                                             {
                                                 "id": "workbench.action.alignPanelRight",
                                                 "label": "Right"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "submenuitem.EditorTabsBarShowTabsSubmenu",
+                                    "label": "Tab Bar",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.showMultipleEditorTabs",
+                                                "label": "Multiple Tabs",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.showEditorTab",
+                                                "label": "Single Tab"
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorTabs",
+                                                "label": "Hide"
                                             }
                                         ]
                                     }
@@ -934,8 +973,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1004,54 +1042,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -1251,8 +1280,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1485,10 +1513,6 @@
             "workbench.action.replaceInFiles": {
                 "label": "Ctrl+Shift+H",
                 "userSettingsLabel": "ctrl+shift+h"
-            },
-            "editor.action.commentLine": {
-                "label": "Ctrl+Shift+7",
-                "userSettingsLabel": "ctrl+shift+7"
             },
             "editor.action.blockComment": {
                 "label": "Ctrl+Shift+A",
@@ -1807,7 +1831,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
@@ -1824,15 +1848,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 429,
+            "sideBarWidth": 212,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3",
-            "backupPath": "/home/kiramanolo/.config/Code/Backups/c72e05647779aa2bc90d6ef85be81edf",
+            "folder": "file:///home/kiramanolo/primelooterbot/primelooter",
+            "backupPath": "/home/kiramanolo/.config/Code/Backups/a62ca414059df580503b7566afa94200",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -1842,5 +1866,6 @@
             }
         },
         "openedWindows": []
-    }
+    },
+    "telemetry.sqmId": ""
 }
