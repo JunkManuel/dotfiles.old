@@ -18,6 +18,5 @@
         "editor.wordBasedSuggestions": false
     },
     "security.workspace.trust.untrustedFiles": "open",
-    "git.enableSmartCommit": true,
-    "window.zoomLevel": 1
+    "git.enableSmartCommit": true
 }

@@ -10,8 +10,10 @@
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos": "__default__profile__",
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo": "__default__profile__",
             "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3": "__default__profile__",
+            "file:///home/kiramanolo/primelooterbot/primelooter": "__default__profile__",
             "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica3": "__default__profile__",
-            "file:///home/kiramanolo/primelooterbot/primelooter": "__default__profile__"
+            "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica4": "__default__profile__",
+            "file:///home/kiramanolo/primelooterbot/prime-loot": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -21,7 +23,10 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/kiramanolo/primelooterbot/primelooter"
+                "folderUri": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica4"
+            },
+            {
+                "folderUri": "file:///home/kiramanolo/primelooterbot/prime-loot"
             }
         ],
         "emptyWindows": []
@@ -73,12 +78,23 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/kiramanolo/primelooterbot/primelooter",
-                                        "path": "/home/kiramanolo/primelooterbot/primelooter",
+                                        "external": "file:///home/kiramanolo/primelooterbot/prime-loot",
+                                        "path": "/home/kiramanolo/primelooterbot/prime-loot",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/primelooterbot/primelooter"
+                                    "label": "~/primelooterbot/prime-loot"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica4",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica4",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Algoritmos/Practica4"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -169,18 +185,18 @@
                                     "label": "~/OneDrive/Intelixencia-Artificial/Primeiro/Programasaô/Boletin_5"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Primeiro/Matem%C3%A1ticas%20Discretas",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Primeiro/Matemáticas Discretas",
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica1/Matrix.ipynb",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica1/Matrix.ipynb",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Primeiro/Matemáticas Discretas"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
+                                    "label": "~/IA_Segundo/Algoritmos/Practica1/Matrix.ipynb"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -282,17 +298,6 @@
                                     "label": "~/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/Laboratorio3/test.py"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -348,6 +353,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -1042,45 +1054,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -1831,7 +1852,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 1,
+        "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
@@ -1848,15 +1869,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 212,
+            "sideBarWidth": 240,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kiramanolo/primelooterbot/primelooter",
-            "backupPath": "/home/kiramanolo/.config/Code/Backups/a62ca414059df580503b7566afa94200",
+            "folder": "file:///home/kiramanolo/primelooterbot/prime-loot",
+            "backupPath": "/home/kiramanolo/.config/Code/Backups/d5643b05daba22b422a2d91155d137a8",
             "uiState": {
                 "mode": 1,
                 "x": 0,
