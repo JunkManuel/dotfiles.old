@@ -4,4 +4,4 @@
 	email = ramavillasenin@gmail.com
 	name = JunkManuel
 [alias]
-    ca = !sh -c 'git add -A && git commit -m \"$1\"' -
+    commit-all = !sh -c 'git add -A && git commit -m \"$1\"' -

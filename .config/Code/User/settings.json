@@ -18,5 +18,6 @@
         "editor.wordBasedSuggestions": false
     },
     "security.workspace.trust.untrustedFiles": "open",
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "notebook.lineNumbers": "on"
 }
