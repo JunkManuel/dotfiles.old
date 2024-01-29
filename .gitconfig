@@ -1,7 +1,7 @@
 [init]
 	defaultBranch = master
 [user]
-	email = ramavillasenin@gmail.com
+	email = 21977499+JunkManuel@users.noreply.github.com
 	name = JunkManuel
 [alias]
     commit-all = !sh -c 'git add -A && git commit -m \"$1\"' -
