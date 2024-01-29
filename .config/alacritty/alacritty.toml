@@ -1,0 +1,36 @@
+[env]
+TERM = "xterm-256color"
+
+[font.bold]
+family = "iMWritingMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "iMWritingMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "iMWritingMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "iMWritingMono Nerd Font Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "ScrollLineUp"
+key = "PageUp"
+
+[[keyboard.bindings]]
+action = "ScrollLineDown"
+key = "PageDown"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super"
+
+[window]
+dynamic_padding = true
+dynamic_title = true
+opacity = 1.0
