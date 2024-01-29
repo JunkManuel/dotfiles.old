@@ -16,8 +16,10 @@
             "file:///home/kiramanolo/primelooterbot/prime-loot": "__default__profile__",
             "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica4": "__default__profile__",
             "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica1": "__default__profile__",
+            "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5": "__default__profile__",
+            "file:///home/kiramanolo/IA_Segundo/Redes/Practica10": "__default__profile__",
             "file:///home/kiramanolo/IA_Segundo/Redes/Practica9": "__default__profile__",
-            "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5": "__default__profile__"
+            "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -30,7 +32,7 @@
                 "folderUri": "file:///home/kiramanolo/IA_Segundo/Redes/Practica9"
             },
             {
-                "folderUri": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5"
+                "folderUri": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5"
             }
         ],
         "emptyWindows": []
@@ -82,12 +84,12 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5",
-                                        "path": "/home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5",
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica5",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/IA_Segundo/OptMatematica/Laboratorio5"
+                                    "label": "~/IA_Segundo/Algoritmos/Practica5"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -99,6 +101,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/IA_Segundo/Redes/Practica9"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Redes/Practica10",
+                                        "path": "/home/kiramanolo/IA_Segundo/Redes/Practica10",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Redes/Practica10"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5",
+                                        "path": "/home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/OptMatematica/Laboratorio5"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -167,29 +191,51 @@
                                     "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5/ramypd_v1.py",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica5/ramypd_v1.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Algoritmos/Practica5/ramypd_v1.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5/backtracking_v2.py",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica5/backtracking_v2.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Algoritmos/Practica5/backtracking_v2.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5/backtracking.py",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica5/backtracking.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Algoritmos/Practica5/backtracking.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5/main.ipynb",
+                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica5/main.ipynb",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Algoritmos/Practica5/main.ipynb"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -258,50 +304,6 @@
                                     "label": "~/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema6.ipynb"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb",
-                                        "path": "/home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/IA_Segundo/OptMatematica/Laboratorio3/Ejemplos_PFCM_alumnos.ipynb"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema3.ipynb",
-                                        "path": "/home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema3.ipynb",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema3.ipynb"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica3/ETSEmaps.py/test.py",
-                                        "path": "/home/kiramanolo/IA_Segundo/Algoritmos/Practica3/ETSEmaps.py/test.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/IA_Segundo/Algoritmos/Practica3/ETSEmaps.py/test.py"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/primelooterbot/primelooter/telegram-bot.py",
-                                        "path": "/home/kiramanolo/primelooterbot/primelooter/telegram-bot.py",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/primelooterbot/primelooter/telegram-bot.py"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -346,7 +348,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -702,7 +705,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -859,6 +863,13 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1289,8 +1300,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1841,7 +1851,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 1,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
@@ -1858,21 +1868,21 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 220,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5",
-            "backupPath": "/home/kiramanolo/.config/Code/Backups/05faed2ee06b67ad932d84ff13c220bc",
+            "folder": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5",
+            "backupPath": "/home/kiramanolo/.config/Code/Backups/e3a808680ce6f5cfbeb24653ee2c1388",
             "uiState": {
                 "mode": 1,
-                "x": 0,
-                "y": 36,
-                "width": 1920,
-                "height": 1044
+                "x": 18,
+                "y": 54,
+                "width": 1884,
+                "height": 1008
             }
         },
         "openedWindows": []

@@ -19,5 +19,6 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "git.enableSmartCommit": true,
-    "notebook.lineNumbers": "on"
+    "notebook.lineNumbers": "on",
+    "window.zoomLevel": 1
 }

@@ -6,20 +6,20 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value="/home/kiramanolo/IA_Segundo/Notaciones/OptMatematica"/>
-  <property name="lastOpenPath" value="/home/kiramanolo/IA_Segundo/Notaciones/OptMatematica"/>
+  <property name="lastSavePath" value="/home/kiramanolo/IA_Segundo/Notaciones/Redes"/>
+  <property name="lastOpenPath" value="/home/kiramanolo/IA_Segundo/Notaciones/Redes"/>
   <property name="lastImagePath" value="/home/kiramanolo/IA_Segundo/BasesDatos"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="5"/>
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="2"/>
   <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="1920"/>
-  <property name="mainWndHeight" value="1044"/>
+  <property name="mainWndWidth" value="1884"/>
+  <property name="mainWndHeight" value="1008"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="150"/>
+  <property name="sidebarWidth" value="186"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
