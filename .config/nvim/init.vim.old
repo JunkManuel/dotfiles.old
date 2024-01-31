@@ -1,0 +1,21 @@
+" This line makes pacman-installed global Arch Linux vim packages work.
+source /usr/share/nvim/archlinux.vim
+
+" Modules
+runtime	keybinds.vim
+runtime config.vim
+runtime commenter.vim
+
+call plug#begin()
+
+" Completition Plugins"
+" Plug 'jiangmiao/auto-pairs' "quote/bracket pair Completition
+" Plug 'ervandew/supertab'    "tab for all completitions
+"
+" " Visual Plugins
+" Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }   "Add Hex color display
+"
+" " Commenter Plugin
+" Plug 'scrooloose/nerdcommenter'
+
+call plug#end()
