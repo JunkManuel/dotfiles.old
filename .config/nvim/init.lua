@@ -1,7 +1,12 @@
+-------------------------
 -- Load all vimscript config
+-------------------------
 vim.cmd("source ~/.config/nvim/vimscript/init.vim")
 
--- Setup kanagawa theme
+
+-------------------------
+-- Kanagawa theme config
+-------------------------
 require('kanagawa').setup({
     compile = false,             -- enable compiling the colorscheme
     undercurl = true,            -- enable undercurls
@@ -42,11 +47,14 @@ require('kanagawa').setup({
     },
 })
 
--- Load kanagawa theme
 vim.cmd("colorscheme kanagawa-wave")
 
+-------------------------
 -- Load lsp config
+-------------------------
 require('lsp')
 
+-------------------------
 -- Load autopairs
+-------------------------
 require('autoclose').setup()
