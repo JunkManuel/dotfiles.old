@@ -78,6 +78,3 @@ fi
 
 # set options
 setopt autocd autopushd
-
-if builtin type -p "neofetch" >/dev/null 2>&1; then eval neofetch;fi
-

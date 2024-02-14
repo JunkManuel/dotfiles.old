@@ -19,7 +19,8 @@
             "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio5": "__default__profile__",
             "file:///home/kiramanolo/IA_Segundo/Redes/Practica10": "__default__profile__",
             "file:///home/kiramanolo/IA_Segundo/Redes/Practica9": "__default__profile__",
-            "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5": "__default__profile__"
+            "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5": "__default__profile__",
+            "file:///home/kiramanolo/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -29,10 +30,10 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/kiramanolo/IA_Segundo/Redes/Practica9"
+                "folderUri": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5"
             },
             {
-                "folderUri": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5"
+                "folderUri": "file:///home/kiramanolo/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1"
             }
         ],
         "emptyWindows": []
@@ -79,6 +80,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1",
+                                        "path": "/home/kiramanolo/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -180,18 +192,18 @@
                                     "label": "~/IA_Segundo/Algoritmos/Practica3"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3",
-                                        "path": "/home/kiramanolo/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3",
+                                        "external": "file:///home/kiramanolo/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1/new.r",
+                                        "path": "/home/kiramanolo/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1/new.r",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/OneDrive/Intelixencia-Artificial/Segundo/Algoritmos/Practica3"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
+                                    "label": "~/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1/new.r"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -293,17 +305,6 @@
                                     "label": "~/IA_Segundo/Algoritmos/Practica1/Matrix.ipynb"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema6.ipynb",
-                                        "path": "/home/kiramanolo/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema6.ipynb",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/IA_Segundo/OptMatematica/Laboratorio4/PFCM_Problema6.ipynb"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -315,7 +316,7 @@
                                 },
                                 {
                                     "id": "workbench.action.clearRecentFiles",
-                                    "label": "&&Clear Recently Opened"
+                                    "label": "&&Clear Recently Opened..."
                                 }
                             ]
                         }
@@ -540,11 +541,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -712,6 +715,10 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.toggleSidebarPosition",
+                                    "label": "&&Move Primary Side Bar Left"
+                                },
+                                {
                                     "id": "submenuitem.ActivityBarPositionMenu",
                                     "label": "Activity Bar Position",
                                     "submenu": {
@@ -727,10 +734,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "id": "workbench.action.toggleSidebarPosition",
-                                    "label": "&&Move Primary Side Bar Left"
                                 },
                                 {
                                     "id": "submenuitem.PanelPositionMenu",
@@ -794,7 +797,24 @@
                                             },
                                             {
                                                 "id": "workbench.action.hideEditorTabs",
-                                                "label": "Hide"
+                                                "label": "Hidden"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "submenuitem.EditorActionsPositionSubmenu",
+                                    "label": "Editor Actions Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.editorActionsDefault",
+                                                "label": "Tab Bar",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorActions",
+                                                "label": "Hidden"
                                             }
                                         ]
                                     }
@@ -875,6 +895,17 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.moveEditorToNewWindow",
+                                    "label": "&&Move Editor into New Window"
+                                },
+                                {
+                                    "id": "workbench.action.copyEditorToNewWindow",
+                                    "label": "&&Copy Editor into New Window"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -940,10 +971,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -967,7 +994,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     }
                 ]
             },
@@ -984,7 +1012,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1868,15 +1897,15 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 232,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/kiramanolo/IA_Segundo/Algoritmos/Practica5",
-            "backupPath": "/home/kiramanolo/.config/Code/Backups/e3a808680ce6f5cfbeb24653ee2c1388",
+            "folder": "file:///home/kiramanolo/IA_Segundo/Fundamentos_de_aprendizaxe_automatica/Boletin1",
+            "backupPath": "/home/kiramanolo/.config/Code/Backups/8ab539ade211cd5a14e782242611e90b",
             "uiState": {
                 "mode": 1,
                 "x": 18,

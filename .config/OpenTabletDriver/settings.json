@@ -17,10 +17,10 @@
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 139.99,
-          "Height": 79.97,
-          "X": 69.995,
-          "Y": 39.985,
+          "Width": 129.99,
+          "Height": 69.97,
+          "X": 64.995,
+          "Y": 34.985,
           "Rotation": 0.0
         },
         "EnableClipping": true,
@@ -49,21 +49,21 @@
         "EraserButton": null,
         "PenButtons": [
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
             "Settings": [
               {
-                "Property": "Keys",
-                "Value": "Control+Shift+P"
+                "Property": "Key",
+                "Value": "E"
               }
             ],
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
             "Settings": [
               {
-                "Property": "Keys",
-                "Value": "Control+Shift+E"
+                "Property": "Key",
+                "Value": "P"
               }
             ],
             "Enable": true

@@ -10,6 +10,8 @@ Plug 'dylanaraps/wal.vim'
 
 Plug 'neovim/nvim-lspconfig'
 
+Plug 'm4xshen/autoclose.nvim'
+
 call plug#end()
 
 " Config sourcing

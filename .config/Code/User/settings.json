@@ -15,7 +15,7 @@
     "[python]": {
         "diffEditor.ignoreTrimWhitespace": false,
         "editor.formatOnType": true,
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
     "security.workspace.trust.untrustedFiles": "open",
     "git.enableSmartCommit": true,
