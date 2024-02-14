@@ -35,10 +35,13 @@ zstyle ':vcs_info:git:*' formats       'git:(%b%u%c)'
 zstyle ':vcs_info:git:*' actionformats 'git:(%b|%a%u%c)'
 
 # Prompt Setup
-setopt prompt_subst
-precmd() { vcs_info && print -rP '%B%F{yellow}%K{yellow}%{█▓▒░%}%B%F{black}%K{yellow}%n@%m%b%F{red}%K{yellow}%{░▒▓█%}%b%F{red}%K{black}%{█▓▒░%}%B%F{white}%K{black} %D{%a %b %d} %D{%I:%M:%S%P} %}%B%F{white}%K{black}' }
-PROMPT='%~/%b%f%k '
-RPROMPT='${vcs_info_msg_0_}' 
+# setopt prompt_subst
+# precmd() { vcs_info && print -rP '%B%F{yellow}%K{yellow}%{█▓▒░%}%B%F{black}%K{yellow}%n@%m%b%F{red}%K{yellow}%{░▒▓█%}%b%F{red}%K{black}%{█▓▒░%}%B%F{white}%K{black} %D{%a %b %d} %D{%I:%M:%S%P} %}%B%F{white}%K{black}' }
+# PROMPT='%~/%b%f%k '
+# RPROMPT='${vcs_info_msg_0_}' 
+autoload -Uz promptinit
+promptinit
+prompt pure
 
 # ALIASES
 alias ls="ls --color -F"
